@@ -72,7 +72,7 @@ formatter.match({
   "location": "DataTableExample.whenMethod(String)"
 });
 formatter.result({
-  "duration": 498139113,
+  "duration": 292613753,
   "status": "passed"
 });
 formatter.match({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "DataTableExample.givenMethodRun(String,DataTable)"
 });
 formatter.result({
-  "duration": 3117499,
+  "duration": 5694184,
   "status": "passed"
 });
 formatter.match({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "DataTableExample.thenMethod(String)"
 });
 formatter.result({
-  "duration": 178716,
+  "duration": 555746,
   "status": "passed"
 });
 formatter.match({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "DataTableExample.andMethod(String)"
 });
 formatter.result({
-  "duration": 181983,
+  "duration": 177783,
   "status": "passed"
 });
 formatter.match({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "DataTableExample.butMethod(String)"
 });
 formatter.result({
-  "duration": 201581,
+  "duration": 218379,
   "status": "passed"
 });
 formatter.uri("developer.feature");
@@ -262,7 +262,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 790924,
+  "duration": 369564,
   "status": "passed"
 });
 formatter.match({
@@ -275,7 +275,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 575811,
+  "duration": 547347,
   "status": "passed"
 });
 formatter.match({
@@ -288,7 +288,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 608008,
+  "duration": 411560,
   "status": "passed"
 });
 formatter.match({
@@ -301,7 +301,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 2644345,
+  "duration": 163784,
   "status": "passed"
 });
 formatter.scenario({
@@ -354,7 +354,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 302838,
+  "duration": 246843,
   "status": "passed"
 });
 formatter.match({
@@ -367,7 +367,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 165184,
+  "duration": 173116,
   "status": "passed"
 });
 formatter.match({
@@ -380,7 +380,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 454956,
+  "duration": 223046,
   "status": "passed"
 });
 formatter.match({
@@ -393,7 +393,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 200648,
+  "duration": 251510,
   "status": "passed"
 });
 formatter.scenario({
@@ -446,7 +446,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 783458,
+  "duration": 300038,
   "status": "passed"
 });
 formatter.match({
@@ -459,7 +459,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 631806,
+  "duration": 230045,
   "status": "passed"
 });
 formatter.match({
@@ -472,7 +472,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 191782,
+  "duration": 479687,
   "status": "passed"
 });
 formatter.match({
@@ -485,7 +485,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 182449,
+  "duration": 422759,
   "status": "passed"
 });
 formatter.uri("housewife.feature");
@@ -580,14 +580,14 @@ formatter.match({
   "location": "TestClass.testMyStuff(String)"
 });
 formatter.result({
-  "duration": 417627,
+  "duration": 397095,
   "status": "passed"
 });
 formatter.match({
   "location": "TestClass.testMyStuff1()"
 });
 formatter.result({
-  "duration": 133920,
+  "duration": 126921,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +600,7 @@ formatter.match({
   "location": "TestClass.testMyStuff2(String)"
 });
 formatter.result({
-  "duration": 225845,
+  "duration": 196914,
   "status": "passed"
 });
 formatter.match({
@@ -613,7 +613,7 @@ formatter.match({
   "location": "TestClass.testMyStuff3(String)"
 });
 formatter.result({
-  "duration": 193181,
+  "duration": 173583,
   "status": "passed"
 });
 formatter.match({
@@ -626,7 +626,7 @@ formatter.match({
   "location": "TestClass.testMyStuff4(String)"
 });
 formatter.result({
-  "duration": 186649,
+  "duration": 240777,
   "status": "passed"
 });
 formatter.scenario({
@@ -672,14 +672,14 @@ formatter.match({
   "location": "TestClass.testMyStuff(String)"
 });
 formatter.result({
-  "duration": 274374,
+  "duration": 268307,
   "status": "passed"
 });
 formatter.match({
   "location": "TestClass.testMyStuff1()"
 });
 formatter.result({
-  "duration": 2271514,
+  "duration": 682668,
   "status": "passed"
 });
 formatter.match({
@@ -692,7 +692,7 @@ formatter.match({
   "location": "TestClass.testMyStuff2(String)"
 });
 formatter.result({
-  "duration": 187582,
+  "duration": 186182,
   "status": "passed"
 });
 formatter.match({
@@ -705,7 +705,7 @@ formatter.match({
   "location": "TestClass.testMyStuff3(String)"
 });
 formatter.result({
-  "duration": 190381,
+  "duration": 183382,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +718,7 @@ formatter.match({
   "location": "TestClass.testMyStuff4(String)"
 });
 formatter.result({
-  "duration": 269707,
+  "duration": 660736,
   "status": "passed"
 });
 });

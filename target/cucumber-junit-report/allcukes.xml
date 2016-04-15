@@ -1,62 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuites>
-  <testsuite failures="0" id="0" name="JUnitFormatter" package="cucumber.runtime.formatter" skipped="0" tests="6" time="0.306196">
-    <testcase classname="Data Table Feature" name="Data table learning" time="0.29926">
-      <system-out><![CDATA[Given I am a "learner"......................................................passed
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.306196">
+<testcase classname="Data Table Feature" name="Data table learning" time="0.29926">
+<system-out><![CDATA[Given I am a "learner"......................................................passed
 When I was asked to learn "<data table>"....................................passed
 Then I have created this "feature file".....................................passed
 And I have been "learning"..................................................passed
 But I may end up seeing "lot of errors".....................................passed
 ]]></system-out>
-
-    </testcase>
-
-    <testcase classname="Life of Developer" name="I am working at Microsoft" time="0.001492">
-      <system-out><![CDATA[Given I am working at "Apple"...............................................passed
+</testcase>
+<testcase classname="Life of Developer" name="I am working at Microsoft" time="0.001492">
+<system-out><![CDATA[Given I am working at "Apple"...............................................passed
 When I see my boss "Steve Jobs".............................................passed
 Then I get "Excited"........................................................passed
 But he is "Cool"............................................................passed
 ]]></system-out>
-
-    </testcase>
-
-    <testcase classname="Life of Developer" name="I am working at Microsoft 2" time="0.000895">
-      <system-out><![CDATA[Given I am working at "Microsoft"...........................................passed
+</testcase>
+<testcase classname="Life of Developer" name="I am working at Microsoft 2" time="0.000895">
+<system-out><![CDATA[Given I am working at "Microsoft"...........................................passed
 When I see my boss "Bill Gates".............................................passed
 Then I get "Scared".........................................................passed
 But he is "Cunning".........................................................passed
 ]]></system-out>
-
-    </testcase>
-
-    <testcase classname="Life of Developer" name="I am working at Microsoft 3" time="0.001433">
-      <system-out><![CDATA[Given I am working at "Infosys".............................................passed
+</testcase>
+<testcase classname="Life of Developer" name="I am working at Microsoft 3" time="0.001433">
+<system-out><![CDATA[Given I am working at "Infosys".............................................passed
 When I see my boss "Vishal".................................................passed
 Then I get "Surprised"......................................................passed
 But he is "Awesome".........................................................passed
 ]]></system-out>
-
-    </testcase>
-
-    <testcase classname="Test Feature1" name="I am good tester" time="0.001135">
-      <system-out><![CDATA[Given I am "good" tester....................................................passed
+</testcase>
+<testcase classname="Test Feature1" name="I am good tester" time="0.001135">
+<system-out><![CDATA[Given I am "good" tester....................................................passed
 When I go to office.........................................................passed
 Then I see lot of "challenging" work........................................passed
 And I find it "inspiring"...................................................passed
 But sometimes it is "boring"................................................passed
 ]]></system-out>
-
-    </testcase>
-
-    <testcase classname="Test Feature1" name="I am bad tester" time="0.001981">
-      <system-out><![CDATA[Given I am "bad" tester.....................................................passed
+</testcase>
+<testcase classname="Test Feature1" name="I am bad tester" time="0.001981">
+<system-out><![CDATA[Given I am "bad" tester.....................................................passed
 When I go to office.........................................................passed
 Then I see lot of "irritated" work..........................................passed
 And I find it "shitty"......................................................passed
 But sometimes it is "challenging"...........................................passed
 ]]></system-out>
-
-    </testcase>
-
-  </testsuite>
-</testsuites>
+</testcase>
+</testsuite>
