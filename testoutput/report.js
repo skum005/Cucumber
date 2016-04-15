@@ -1,4 +1,133 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("com/basics/developer.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("com/basics/datatable.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Data Table Feature",
+  "description": "In Order to learn data table feature\r\nAs a learner\r\nI want to create an example",
+  "id": "data-table-feature",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 6,
+  "name": "Data table learning",
+  "description": "",
+  "id": "data-table-feature;data-table-learning",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 7,
+  "name": "I am a \"learner\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "I was asked to learn \"\u003cdata table\u003e\"",
+  "rows": [
+    {
+      "cells": [
+        "Type",
+        "Status"
+      ],
+      "line": 9
+    },
+    {
+      "cells": [
+        "DataTable",
+        "Learning in progress"
+      ],
+      "line": 10
+    },
+    {
+      "cells": [
+        "Basics",
+        "Completed"
+      ],
+      "line": 11
+    }
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "I have created this \"feature file\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "I have been \"learning\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I may end up seeing \"lot of errors\"",
+  "keyword": "But "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "learner",
+      "offset": 8
+    }
+  ],
+  "location": "DataTableExample.whenMethod(String)"
+});
+formatter.result({
+  "duration": 331669049,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cdata table\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "DataTableExample.givenMethodRun(String,DataTable)"
+});
+formatter.result({
+  "duration": 3350809,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "feature file",
+      "offset": 21
+    }
+  ],
+  "location": "DataTableExample.thenMethod(String)"
+});
+formatter.result({
+  "duration": 350433,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "learning",
+      "offset": 13
+    }
+  ],
+  "location": "DataTableExample.andMethod(String)"
+});
+formatter.result({
+  "duration": 303771,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "lot of errors",
+      "offset": 21
+    }
+  ],
+  "location": "DataTableExample.butMethod(String)"
+});
+formatter.result({
+  "duration": 321969,
+  "status": "passed"
+});
+formatter.uri("com/basics/developer.feature");
 formatter.feature({
   "line": 1,
   "name": "Life of Developer",
@@ -133,7 +262,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 710513545,
+  "duration": 406428,
   "status": "passed"
 });
 formatter.match({
@@ -146,7 +275,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 365365,
+  "duration": 363965,
   "status": "passed"
 });
 formatter.match({
@@ -159,7 +288,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 690133,
+  "duration": 300037,
   "status": "passed"
 });
 formatter.match({
@@ -172,7 +301,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 6581232,
+  "duration": 384030,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,7 +354,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 3138030,
+  "duration": 440024,
   "status": "passed"
 });
 formatter.match({
@@ -238,7 +367,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 4788004,
+  "duration": 312169,
   "status": "passed"
 });
 formatter.match({
@@ -251,7 +380,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 4014345,
+  "duration": 1055499,
   "status": "passed"
 });
 formatter.match({
@@ -264,7 +393,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 3012043,
+  "duration": 361631,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,7 +446,7 @@ formatter.match({
   "location": "DeveloperClass.myDev(String)"
 });
 formatter.result({
-  "duration": 727463,
+  "duration": 360232,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +459,7 @@ formatter.match({
   "location": "DeveloperClass.myDev1(String)"
 });
 formatter.result({
-  "duration": 189914,
+  "duration": 257109,
   "status": "passed"
 });
 formatter.match({
@@ -343,7 +472,7 @@ formatter.match({
   "location": "DeveloperClass.myDev2(String)"
 });
 formatter.result({
-  "duration": 163317,
+  "duration": 306104,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +485,7 @@ formatter.match({
   "location": "DeveloperClass.myDev3(String)"
 });
 formatter.result({
-  "duration": 174049,
+  "duration": 327102,
   "status": "passed"
 });
 formatter.uri("com/basics/housewife.feature");
@@ -451,14 +580,14 @@ formatter.match({
   "location": "TestClass.testMyStuff(String)"
 });
 formatter.result({
-  "duration": 872116,
+  "duration": 666802,
   "status": "passed"
 });
 formatter.match({
   "location": "TestClass.testMyStuff1()"
 });
 formatter.result({
-  "duration": 127387,
+  "duration": 231911,
   "status": "passed"
 });
 formatter.match({
@@ -471,7 +600,7 @@ formatter.match({
   "location": "TestClass.testMyStuff2(String)"
 });
 formatter.result({
-  "duration": 239843,
+  "duration": 183382,
   "status": "passed"
 });
 formatter.match({
@@ -484,7 +613,7 @@ formatter.match({
   "location": "TestClass.testMyStuff3(String)"
 });
 formatter.result({
-  "duration": 205780,
+  "duration": 322902,
   "status": "passed"
 });
 formatter.match({
@@ -497,7 +626,7 @@ formatter.match({
   "location": "TestClass.testMyStuff4(String)"
 });
 formatter.result({
-  "duration": 1017702,
+  "duration": 318703,
   "status": "passed"
 });
 formatter.scenario({
@@ -543,14 +672,14 @@ formatter.match({
   "location": "TestClass.testMyStuff(String)"
 });
 formatter.result({
-  "duration": 183382,
+  "duration": 410161,
   "status": "passed"
 });
 formatter.match({
   "location": "TestClass.testMyStuff1()"
 });
 formatter.result({
-  "duration": 92391,
+  "duration": 240777,
   "status": "passed"
 });
 formatter.match({
@@ -563,7 +692,7 @@ formatter.match({
   "location": "TestClass.testMyStuff2(String)"
 });
 formatter.result({
-  "duration": 368165,
+  "duration": 248243,
   "status": "passed"
 });
 formatter.match({
@@ -576,7 +705,7 @@ formatter.match({
   "location": "TestClass.testMyStuff3(String)"
 });
 formatter.result({
-  "duration": 199715,
+  "duration": 345300,
   "status": "passed"
 });
 formatter.match({
@@ -589,7 +718,7 @@ formatter.match({
   "location": "TestClass.testMyStuff4(String)"
 });
 formatter.result({
-  "duration": 169384,
+  "duration": 465689,
   "status": "passed"
 });
 });
