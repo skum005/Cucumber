@@ -97,16 +97,16 @@
             <arg value="format"/>-->
             <arg value="html:target/cucumber-html-report"/>
             <arg value="--glue"/>
-            <arg value="com/learning/cucumber"/>
+            <arg value="com/basics"/>
             <arg value="src/com/basics"/>
         </java>
 			
-        <junitreport todir="target/cucumber-junit-report">
+     <!--   <junitreport todir="target/cucumber-junit-report">
             <fileset dir="target/cucumber-junit-report">
                 <include name="allcukes.xml"/>
             </fileset>
             <report format="frames" todir="target/cucumber-junit-report"/>
-        </junitreport>
+        </junitreport> -->
 
         <fail message="Cucumber failed">
             <condition>
